@@ -29,6 +29,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   bloc: ^8.1.4
+  build_runner: ^2.4.13
   connectivity_plus: ^6.1.1
   cupertino_icons: ^1.0.8
   dartz: ^0.10.1
@@ -40,6 +41,7 @@ dependencies:
   http: ^1.2.2
   icons_launcher: ^3.0.0
   intl: ^0.20.1
+  mockito: ^5.4.4
 
 icons_launcher:
   image_path: "assets/images/icon.png"
