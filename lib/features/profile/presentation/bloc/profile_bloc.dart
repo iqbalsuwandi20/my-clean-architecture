@@ -1,10 +1,11 @@
 import 'package:bloc/bloc.dart';
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
-import 'package:my_clean_architecture/core/error/failure.dart';
-import 'package:my_clean_architecture/features/profile/domain/entities/profile_entity.dart';
-import 'package:my_clean_architecture/features/profile/domain/usecases/get_all_user.dart';
-import 'package:my_clean_architecture/features/profile/domain/usecases/get_user.dart';
+
+import '../../../../core/error/failure.dart';
+import '../../domain/entities/profile_entity.dart';
+import '../../domain/usecases/get_all_user.dart';
+import '../../domain/usecases/get_user.dart';
 
 part 'profile_event.dart';
 part 'profile_state.dart';
