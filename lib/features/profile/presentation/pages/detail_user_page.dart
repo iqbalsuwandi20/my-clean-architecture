@@ -26,26 +26,31 @@ class DetailUserPage extends StatelessWidget {
               color: Colors.white,
             ),
           )),
-      body: const Card(
-        margin: EdgeInsets.all(20),
-        child: Padding(
-          padding: EdgeInsets.all(20),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              CircleAvatar(
-                radius: 50,
-              ),
-              SizedBox(height: 50),
-              Text('ID'),
-              SizedBox(height: 10),
-              Text('Fullname:'),
-              SizedBox(height: 10),
-              Text('Email:'),
-            ],
+      body: const Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          CircleAvatar(
+            radius: 50,
           ),
-        ),
+          SizedBox(height: 30),
+          Card(
+            margin: EdgeInsets.all(20),
+            child: Padding(
+              padding: EdgeInsets.all(20),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text('ID:'),
+                  SizedBox(height: 10),
+                  Text('Fullname:'),
+                  SizedBox(height: 10),
+                  Text('Email:'),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
